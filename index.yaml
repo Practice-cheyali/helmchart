@@ -1,3 +1,12 @@
 apiVersion: v1
-entries: {}
-generated: "2021-07-31T21:56:59.7845931+05:30"
+entries:
+  javaapp:
+  - apiVersion: v2
+    created: "2021-07-31T22:55:46.7399811+05:30"
+    description: my first project
+    digest: 05d46b571679a43fc17cbf20c82f9245e98830265370c614f91432b732e9da98
+    name: javaapp
+    urls:
+    - https://practice-cheyali.github.io/helmchart/javaapp-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-31T22:55:46.7391182+05:30"
