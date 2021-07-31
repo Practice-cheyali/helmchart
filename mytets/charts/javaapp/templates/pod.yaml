@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: pod
+metadata:
+  name: javapod # Here we are setting name for pod
+spec:
+  containers:
+  - name: javac1
+    image: alpine:latest # here we need to give image name
+    containerPort: 80 # here we can give the container port
+  # we are just deploying pod directly
+  # In these pod we are creating only one container
+  # In case we want two container are in same pod
+  #- name: javac2
+  #  image: imagename
+  #  containerPort: 80 we need to give containerport
